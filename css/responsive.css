@@ -1,0 +1,284 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$Fully$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ####################Rasponsive######################## */
+
+
+/* =========== ================ */
+@media (max-width:575px) {
+ 
+  /* =========bannerSection========= */
+  .brand_logo{
+    width:60%;
+  }
+  .navbar-collapse {
+    padding: 1em;
+  }
+  .home-icon {
+    display: none;
+  }
+  .banner-txt {
+    padding-top: 140px;
+  }
+  
+.navbar-collapse button {
+  margin-left: 85px;
+}
+
+  /* ====Button======= */
+  .banner-btn a {
+    padding: 6px;
+  }
+
+  .banner-btn a h4 {
+    font-size: 14px;
+  }
+
+  .banner-btn a h4 span {
+    font-size: 12px;
+  }
+
+  /* Slick_Dots */
+  .slick-dots li {
+    display: inline-block;
+  }
+  .slick-dots {
+    top: 93%;
+    right: 50%;
+    transform: translate(50%)
+  }
+
+
+  .slide-cont  {
+    height: 620px;
+  }
+
+  /* =======About Section====== */
+  #full-about {
+    padding: 0px 0 60px 0;
+  }
+  
+
+  /* ========Feature Section========== */
+  #v-pills-tab {
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .sec-title h3  {
+    font-size: 22px;
+  }
+
+  .display_none {
+    display: none;
+  }
+  #v-pills-tab li{
+    margin-right: 12px;
+    padding: 4px;
+   
+  }
+  .tab-menu a:before {
+    height: 0px;
+ }
+ 
+  .tab-text {
+    text-align: center !important;
+  }
+
+  /* ===========ScreenShots=========== */
+  .scrn-slide .slick-dots  {
+    position: static;
+    text-align: center;
+    transform: translate(0px);
+    margin-top: 20px;
+  }
+
+  #scrn-shot {
+    padding: 45px 0 0 0;
+  }
+
+  /* =============Video Section==================== */
+  .video-bg {
+    height: 400px;
+  }
+/* =============Feedback Section==================== */
+.main-feedback .txt-box {
+  padding: 35px 10px;
+  font-weight: 600;
+}
+
+/* ========== Contact part ========= */
+#get-touch .form-col {
+  padding: 0 5px;
+}
+
+/* ============Footer Section ============= */
+#footer {
+  padding: 30px 0px;
+}
+
+.footer-icon i {
+  width: 48px;
+  height: 48px;
+}
+
+}
+
+@media (max-width:991px) {
+  .dropdown-item {
+    text-align: center;
+  }
+
+  /* ============ Team section ============ */
+.team-text p {
+  padding: 10px;
+}
+
+.topbtn i {
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 25px;
+}
+   
+}
+
+
+/* ===========575px to 767px=========== */
+@media(min-width:576px) and (max-width:767px) {
+  .home-icon {
+    display: none;
+  }
+  .navbar-collapse button {
+    margin-left: 194px;
+  }
+/* Slick_Dots */
+.slick-dots li {
+  display: inline-block;
+}
+.slick-dots {
+  top: 93%;
+  right: 50%;
+  transform: translate(50%)
+}
+ 
+  /* ========Feature Section========== */
+  #v-pills-tab {
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .sec-title h3  {
+    font-size: 22px;
+  }
+
+  .display_none {
+    display: none;
+  }
+  #v-pills-tab li{
+    margin-right: 12px;
+    padding: 4px;
+   
+  }
+  .tab-menu a:before {
+    height: 0px;
+ }
+ 
+  .tab-text {
+    text-align: center !important;
+  }
+  
+    /* ===========ScreenShots=========== */
+  .scrn-slide .slick-dots  {
+    position: static;
+    text-align: center;
+    transform: translate(0px);
+    margin-top: 20px;
+  }
+
+  #scrn-shot {
+    padding: 45px 0;
+  }
+}
+
+
+/* ===========768px to 991px=========== */
+@media(min-width:768px) and (max-width:991px) {
+  .navbar-collapse button {
+    margin-left: 284px;
+  }
+  .home-icon {
+    display: none;
+  }
+  /* Slick_Dots */
+.slick-dots li {
+  display: inline-block;
+}
+.slick-dots {
+  top: 93%;
+  right: 50%;
+  transform: translate(50%)
+}
+ /* ====Button======= */
+ .banner-btn a {
+  padding: 6px;
+}
+
+.banner-btn a h4 {
+  font-size: 14px;
+}
+
+.banner-btn a h4 span {
+  font-size: 12px;
+}
+/* =========About Section======== */
+.Ad_img img {
+  margin-top: 100px;
+}
+  /* ========Feature Section========== */
+  #v-pills-tab {
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .sec-title h3  {
+    font-size: 22px;
+  }
+
+  .display_none {
+    display: none;
+  }
+  #v-pills-tab li{
+    margin-right: 12px;
+    padding: 4px;
+   
+  }
+  .tab-menu a:before {
+    height: 0px;
+ }
+ 
+  .tab-text {
+    text-align: center !important;
+  }
+     /* ===========ScreenShots=========== */
+  .scrn-slide .slick-dots  {
+    position: static;
+    text-align: center;
+    transform: translate(0px);
+    margin-top: 20px;
+  }
+
+  #scrn-shot {
+    padding: 45px 0;
+  }
+}
+
+/* ===========992px to 1199px=========== */
+@media(min-width:992px) and (max-width:1199px) {
+  .banner-right {
+    margin-right: 100px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: .25rem; 
+    padding-right: .25rem; 
+  }
+
+  .team-text p {
+    padding: 10px 30px;
+  }
+}
